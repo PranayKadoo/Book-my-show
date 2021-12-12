@@ -1,0 +1,7 @@
+.cards{
+justify-content: center;
+align-items: center;
+}
+.cards button{
+    color: red;
+}

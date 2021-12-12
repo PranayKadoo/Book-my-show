@@ -1,0 +1,30 @@
+.movies img{
+    align-items: center;
+    height:300px;
+    justify-content: center;
+}
+
+.movies{
+    padding-right: 10px;
+    /* padding-left: 15px; */
+}
+.movieIn{
+    /* justify-content: center;
+ text-align: center;
+ align-items: center; */
+ margin-left: auto;
+ margin-right: auto;
+}
+@media screen and (max-width:600px){ 
+    .movies img{
+        align-items: center;
+        width: auto;
+        height:200px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+    @media screen and (max-width:450px){ 
+    }
+    @media screen and (max-width:350px){ 
+    }

@@ -1,0 +1,181 @@
+body{
+    background-color: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidebarIn{
+    background-color: #fff;
+    position: fixed;
+    height:100%;
+    width:300px;
+    right:0;
+}
+.content1{
+    margin:0;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: left;
+    background-color:rgb(41, 47, 59)
+}
+.content2{
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 0;
+}
+.content2 h1{
+    color: rgb(59, 59, 58);
+    font-size: 15px;
+}
+.content2_button{
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 1px;
+    padding: 10px;
+}
+.content3{
+    color: rgb(59, 59, 58);
+    font-size: 15px;
+    text-align: left;
+    padding: 20px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    /* *display:inline;zoom:1; */
+    margin:0px;
+    /* vertical-align: top;
+    outline:none;  */
+    border-bottom: 1px solid black;
+}
+
+@media screen and (max-width:600px){ 
+    .sidebarIn{
+        background-color: #fff;
+        position: fixed;
+        height:65%;
+        width:200px;
+        right:0;
+    }
+    .content1{
+        margin:0;
+        color: whitesmoke;
+        padding: 15px;
+        text-align: left;
+        background-color:rgb(41, 47, 59)
+    }
+    .content2{
+        padding-left: 15px;
+        text-align: left;
+        margin-top: 0;
+    }
+    .content2 h1{
+        color: rgb(59, 59, 58);
+        font-size: 10px;
+    }
+    .content2_button{
+        color: crimson;
+        border: 1px solid crimson;
+        border-radius: 1px;
+        padding: 8px;
+        font-size:10px
+    }
+    .content3{
+        color: rgb(59, 59, 58);
+        font-size: 10px;
+        text-align: left;
+        padding: 15px;
+        padding-left: 15px;
+        background-color: whitesmoke;
+        /* *display:inline;zoom:1; */
+        margin:0px;
+        /* vertical-align: top;
+        outline:none;  */
+        border-bottom: 1px solid black;
+    }
+}
+@media screen and (max-width:450px){ 
+    .sidebarIn{
+        background-color: #fff;
+        position: fixed;
+        height:55%;
+        width:150px;
+        right:0;
+    }
+    .content1{
+        margin:0;
+        color: whitesmoke;
+        padding: 12px;
+        text-align: left;
+        background-color:rgb(41, 47, 59)
+    }
+    .content2{
+        padding-left: 12px;
+        text-align: left;
+        margin-top: 0;
+    }
+    .content2 h1{
+        color: rgb(59, 59, 58);
+        font-size: 10px;
+    }
+    .content2_button{
+        color: crimson;
+        border: 1px solid crimson;
+        border-radius: 1px;
+        padding: 7px;
+    }
+    .content3{
+        color: rgb(59, 59, 58);
+        font-size: 10px;
+        text-align: left;
+        padding: 12px;
+        padding-left: 12px;
+        background-color: whitesmoke;
+        /* *display:inline;zoom:1; */
+        margin:0px;
+        /* vertical-align: top;
+        outline:none;  */
+        border-bottom: 1px solid black;
+    }
+}
+
+@media screen and (max-width:350px){ 
+    .sidebarIn{
+        background-color: #fff;
+        position: fixed;
+        height:35%;
+        width:150px;
+        right:0;
+    }
+    .content1{
+        margin:0;
+        color: whitesmoke;
+        padding: 10px;
+        text-align: left;
+        background-color:rgb(41, 47, 59)
+    }
+    .content2{
+        padding-left: 10px;
+        text-align: left;
+        margin-top: 0;
+    }
+    .content2 h1{
+        color: rgb(59, 59, 58);
+        font-size: 8px;
+    }
+    .content2_button{
+        color: crimson;
+        border: 1px solid crimson;
+        border-radius: 1px;
+        padding: 8px;
+    }
+    .content3{
+        color: rgb(59, 59, 58);
+        font-size: 8px;
+        text-align: left;
+        padding: 12px;
+        padding-left: 12px;
+        background-color: whitesmoke;
+        /* *display:inline;zoom:1; */
+        margin:0px;
+        /* vertical-align: top;
+        outline:none;  */
+        border-bottom: 1px solid black;
+    }
+}

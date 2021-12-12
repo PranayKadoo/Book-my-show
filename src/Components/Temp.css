@@ -1,0 +1,40 @@
+ .city_name{
+    background-color: #fff;
+    /* grid-column: 1/7; */
+     display: grid;
+    width: 100%; 
+    /* z-index: -1; */
+ }
+ ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  li{    color: rgb(68, 63, 63);
+
+float: left;
+padding-left: 63px; }
+li :hover {
+    display: block;
+    color: rgb(228, 30, 30);
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .city_logo{
+      height: 100px;
+      width:100px
+  }
+  
